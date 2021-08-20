@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="css/bootstrap.min.css" />
+        <link
+          rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+        />
+        <link rel="stylesheet" href="css/dataTables.bootstrap5.min.css" />
+        <link rel="stylesheet" href="page.css">
+        <link rel="stylesheet" href="css/style.css" />
+        <title>Visualization Dashboard</title>
+      </head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" style="z-index: -1;">
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#sidebar"
+            aria-controls="offcanvasExample"
+          >
+            <span class="navbar-toggler-icon" data-bs-target="#sidebar"></span>
+          </button>
+          <a
+            class="navbar-brand me-auto ms-lg-0 ms-3 text-uppercase fw-bold"
+            href="#" style="font-size: large; text-decoration:  underline ;"
+            >Registration Analasis</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#topNavBar"
+            aria-controls="topNavBar"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="topNavBar">
+            <form class="d-flex ms-auto my-3 my-lg-0">
+              <div class="input-group">
+                <input
+                  class="form-control"
+                  type="search"
+                  placeholder="Search"
+                  aria-label="Search"
+                />
+                <button class="btn btn-primary" type="submit">
+                  <i class="bi bi-search"></i>
+                </button>
+              </div>
+            </form>
+            <ul class="navbar-nav">
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle ms-2"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  <i class="bi bi-person-fill"></i>
+                </a>
+                <ul class="dropdown-menu dropdown-menu-end">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#" >Something else here</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- top navigation bar -->
+      <!-- offcanvas -->
+      <div
+        class="offcanvas offcanvas-start sidebar-nav bg-dark"
+        tabindex="-1"
+        id="sidebar"
+      >
+        <div class="offcanvas-body p-0">
+          <nav class="navbar-dark">
+            <ul class="navbar-nav">
+              <li>
+                <div class="text-muted small fw-bold text-uppercase px-3" style="opacity:0;">
+                  CORE
+                </div> 
+              </li>
+              <li>
+                <a href="#" class="nav-link px-3 active">
+                  <span class="me-2"><i class="bi bi-speedometer2"></i></span>
+                  <span><a href="https://nithinraoodela.github.io/Registration/?" class="lists">Dashboard</a></span>
+                </a>
+              </li>
+              <li class="my-4"><hr class="dropdown-divider bg-light" /></li>
+              <li>
+                <div class="text-muted small fw-bold text-uppercase px-3 mb-3">
+                  Visualisation Dashboard
+                </div>
+              </li>
+              <li>
+                <a
+                  class="nav-link px-3 sidebar-link"
+                  data-bs-toggle="collapse"
+                  href="#Analysis"
+                >
+                  <span class="me-2"><i class="bi bi-layout-split"></i></span>
+                  <span><a href="../index.html" class="lists">Analysis</a></span>
+                  <span class="ms-auto">
+                    <span class="right-icon">
+                      <i class="bi bi-chevron-down"></i>
+                    </span>
+                  </span>
+                </a>
+                <div class="collapse" id="Analysis">
+                  <ul class="navbar-nav ps-3">
+                    <li>
+                      <a href="#" class="nav-link px-3">
+                        <span class="me-2"
+                          ><i class="bi bi-speedometer2"></i
+                        ></span>
+                        <span><a href="https://nithinraoodela.github.io/Main1/?"  class="lists">Dashboard</a></span>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li>
+                <a href="#" class="nav-link px-3">
+                  <span class="me-2"><i class="bi bi-book-fill"></i></span>
+                  <span><a href=""  id="nn" class="lists">Lists</a></span>
+                </a>
+              </li>
+              <li class="my-4"><hr class="dropdown-divider bg-light" /></li>
+              <li>
+                <div class="text-muted small fw-bold text-uppercase px-3 mb-3" style="opacity: 0;">
+                  Addons
+                </div>
+              </li>
+              <li>
+                <a href="#" class="nav-link px-3">
+                  <span class="me-2"><i class="bi bi-graph-up" style="opacity: 0;"  ></i></span>
+                  <span style="opacity: 0;">Charts</span>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="nav-link px-3">
+                  <span class="me-2"><i class="bi bi-table" style="opacity: 0;"></i></span>
+                  <span style="opacity: 0;" >Tables</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      
+        </div>
+    
+    <main class="mt-5 pt-3">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-12">
+              <h4>CROWD Analysis</h4>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3 mb-3">
+              <div class="card bg-primary text-white h-100">
+                <div class="card-body py-5">Day-0</div>
+                <div class="card-footer d-flex">
+                  View Analysis
+                  <span class="ms-auto">
+                    <i class="bi bi-chevron-right"></i>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 mb-3">
+              <div class="card bg-warning text-dark h-100">
+                <div class="card-body py-5">Day-1</div>
+                <div class="card-footer d-flex">
+                  View Analysis
+                  <span class="ms-auto">
+                    <i class="bi bi-chevron-right"></i>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 mb-3">
+              <div class="card bg-success text-white h-100">
+                <div class="card-body py-5">Day-2</div>
+                <div class="card-footer d-flex">
+                    View Analysis
+                  <span class="ms-auto">
+                    <i class="bi bi-chevron-right"></i>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 mb-3">
+              <div class="card bg-danger text-white h-100">
+                <div class="card-body py-5">Day-3</div>
+                <div class="card-footer d-flex">
+                    View Analysis
+                  <span class="ms-auto">
+                    <i class="bi bi-chevron-right"></i>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row" style="width: 1000px;">
+            <div class="col-md-6 mb-3" style="width: 1000px;">
+              <div class="card h-100" style="width: 1000px;" >
+                <div class="card-header"style="width: 1000px;" >
+                  <span class="me-2"><i class="bi bi-bar-chart-fill"></i></span>
+                  Time Chart Example
+                </div>
+                <div class="card-body"  style="width: 1000px;">
+                  <canvas class="chart" width="900px" height="500"></canvas>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+          <div class="row">
+            <div class="col-md-12 mb-3">
+              <div class="card">
+                <div class="card-header">
+                  <span><i class="bi bi-table me-2"></i></span> Data Table
+                </div>
+                <div class="card-body">
+                  <div class="table-responsive">
+                    <table
+                      id="example"
+                      class="table table-striped data-table"
+                      style="width: 100%"
+                    >
+                      <thead>
+                        <tr>
+                          <th>Name</th>
+                          <th>Event</th>
+                          <th>College</th>
+                          <th>State</th>
+                          <th>Entry Time</th>
+                          <th>Hostel Alloted</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>Nithin</td>
+                          <td>DJ Night</td>
+                          <td>NIT-HYD</td>
+                          <td>HYD</td>
+                          <td>D3-(12PM)</td>
+                          <td>DH-1</td>
+                        </tr>
+                        <tr>
+                          <td>Bhaskar</td>
+                          <td>Robowars</td>
+                          <td>Don Bosco</td>
+                          <td>Goa</td>
+                          <td>D1-(5PM)</td>
+                          <td>DH-4</td>
+                        </tr>
+                        <tr>
+                          <td>Suresh</td>
+                          <td>BITSMUN</td>
+                          <td>(BIT), Bengaluru</td>
+                          <td>Bangalore</td>
+                          <td>D1-(4.30PM)</td>
+                          <td>DH-3</td>
+                        </tr>
+                        <tr>
+                          <td>Charan</td>
+                          <td>Guest Lectures</td>
+                          <td>SRM University</td>
+                          <td>Tamil Nadu</td>
+                          <td>D3-(4.30PM)</td>
+                          <td>DH-2</td>
+                        </tr>
+                        <tr>
+                          <td>Venkatesh</td>
+                          <td>Matka</td>
+                          <td>(NIT), Delhi</td>
+                          <td>Delhi</td>
+                          <td>D1-(4PM)</td>
+                          <td>DH-1</td>
+                        </tr>
+                        <tr>
+                          <td>Sathish</td>
+                          <td>Robowars</td>
+                          <td>NIT Nagpur</td>
+                          <td>Maharastra</td>
+                          <td>D3-(10.30AM)</td>
+                          <td>AH-6</td>
+                        </tr>
+                        <tr>
+                          <td>Anirudh</td>
+                          <td>BITS CTF</td>
+                          <td>(NIT)-(Trichy)</td>
+                          <td>Tamil Nadu</td>
+                          <td>D0-(7.30PM)</td>
+                          <td>AH-5</td>
+                        </tr>
+                        <tr>
+                          <td>Pavan</td>
+                          <td>Aurora Nights</td>
+                          <td>(NIT), Mangalore</td>
+                          <td>Bangalore</td>
+                          <td>D3-(9.30AM)</td>
+                          <td>AH-4</td>
+                        </tr>
+                        <tr>
+                          <td>Pranav</td>
+                          <td>Reverse Coding</td>
+                          <td>IIT Delhi</td>
+                          <td>Delhi</td>
+                          <td>D2-(5.30PM)</td>
+                          <td>AH-3</td>
+                        </tr>
+                        <tr>
+                          <td>Avinash</td>
+                          <td>Exhibitions</td>
+                          <td>IIT Madras</td>
+                          <td>Tamil Nadu</td>
+                          <td>D3-(8.30PM)</td>
+                          <td>AH-2</td>
+                        </tr>
+                        <tr>
+                          <td>Gana</td>
+                          <td>CodeJam</td>
+                          <td>IIT Bombay</td>
+                          <td>Maharastra</td>
+                          <td>D2-(6.30PM)</td>
+                          <td>AH-1</td>
+                        </tr>
+                        
+                      </tfoot>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+
+      <script src="./js/bootstrap.bundle.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/chart.js@3.0.2/dist/chart.min.js"></script>
+      <script src="./js/jquery-3.5.1.js"></script>
+      <script src="./js/jquery.dataTables.min.js"></script>
+      <script src="./js/dataTables.bootstrap5.min.js"></script>
+      <script src="./js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,223 @@
+{
+ "name": "fl....................................",
+ "children": [
+  {
+   "name": "Maharastra:",
+   "children": [
+    {
+     "name": "Bharati Vidyapeeth" ,
+     
+     "children": [
+      {"name": "Aurora Nights", "value": 3938},
+      {"name": "Exhibitions", "value": 3812},
+      {"name": "Guest Lectures", "value": 6714},
+      {"name": "Workshops", "value": 0}
+     ]
+    },
+    {
+     "name": "Central Institute of Fisheries",
+     "children": [
+      {"name": "FashP", "value": 3938},
+      {"name": "Natyanjal", "value": 3812},
+      {"name": "Waves Ball", "value": 0},
+      {"name": "Adventure Zone", "value": 743}
+     ]
+    },
+    {
+     "name": "IIT Bombay",
+     "children": [
+      {"name": "DJ Nite", "value": 3938},
+      {"name": "Dnglish Nite", "value": 3812},
+      {"name": "Abhivyakti", "value": 6714},
+      {"name": "BITSMUN", "value": 0}
+     ]
+    },
+    {
+     "name": "D. Y. Patil Education Society",
+     "children": [
+      {"name": "Solo Dance", "value": 3938},
+      {"name": "Workshops", "value": 3812},
+      {"name": "Robowars", "value": 6714},
+      {"name": "Matka", "value": 0}
+     ]
+    },
+    {
+     "name": "NIT Nagpur",
+     "children": [
+      {"name": "Reverse Coding", "value": 3938},
+      {"name": "CodeJam", "value": 3812},
+      {"name": "Burnout", "value": 6714},
+      {"name": "Elixir", "value": 0}
+     ]
+    },
+    
+
+    
+    {
+     
+    }
+   ]
+  },
+  {
+   "name": "Goa",
+   "children": [
+    {"name": "Goa Medical College", "value": 7010},
+    
+
+    {"name": "Don Bosco", "value": 5041},
+    {"name": "Goa Engineering College", "value": 5176},
+
+    
+    
+    
+    
+    {"name": "Nit-Goa", "value": 3006}
+   ]
+  },
+ 
+  {
+   "name": "Tamil Nadu",
+   "children": [
+    {"name": "SRM University", "value": 8833},
+    {"name": "(P.S.G CT), Coimbatore", "value": 1732},
+    {"name": "(VELS University), Chennai", "value": 3623},
+    {"name": "(NIT)-Trichy", "value": 3623},
+    {"name": "IIT Madras", "value": 3623},
+    {"name": "VIT-vellore", "value": 10066}
+
+   ]
+  },
+  {
+   "name": "City",
+   "children": [
+    {"name": "FlareVis", "value": 0}
+   ]
+  },
+  {
+   "name": "Bangalore",
+   "children": [
+    {"name": "(NIT), Mangalore", "value": 1082},
+    {"name": "(BIT), Bengaluru", "value": 1336},
+    {"name": "(RVCE), Bangalore", "value": 319},
+    {"name": "(MSRIT), Bengaluru", "value": 10498},
+    {"name": "(NIT), Mangalore", "value": 2822},
+    {"name": "(RVCE), Bangalore", "value": 9983},
+    
+    {"name": "SpringForce", "value": 0}
+   ]
+  },
+  {
+   "name": "Delhi",
+   "children": [
+    
+
+    {
+     "name": "IIT Delhi",
+     "children": [
+      {"name": "MergeEdge", "value": 593},
+      {"name": "Abhivyakti", "value": 330},
+      {"name": "Dnglish Nite", "value": 287},
+      {"name": "DJ Nite", "value": 277},
+      {"name": "Natyanjal", "value": 292},
+      {"name": "Beat Box Battle", "value": 595},
+   
+      {"name": "FashP", "value": 386},
+      {"name": "Solo Dance", "value": 323},
+      {"name": "Beat Box Battle", "value": 307},
+      {"name": "Solo Dance", "value": 772},
+      {"name": "select", "value": 0},
+      {"name": "stddev", "value": 0},
+      {"name": "sub", "value": 0},
+      {"name": "sum", "value": 0},
+      {"name": "update", "value": 0},
+      {"name": "variance", "value": 0},
+      {"name": "where", "value": 0},
+      {"name": "xor", "value": 0},
+      {"name": "_", "value": 0}
+     ]
+    },
+    {
+     "name": "(NIEC), New Delhi",
+     "children": [
+      {"name": "MergeEdge", "value": 593},
+      {"name": "Waves Ball", "value": 330},
+      {"name": "Natyanjal", "value": 287},
+      {"name": "FashP", "value": 277},
+      {"name": "Solo Dance", "value": 292},
+      {"name": "Beat the street", "value": 595},
+   
+      
+     
+      {"name": "_", "value": 0}
+     ]
+    },
+    {
+     "name": "(HMRITM), Delhi",
+     "children": [
+      {"name": "Natyanjal", "value": 593},
+      {"name": "Solo Dance", "value": 330},
+      {"name": "FashP", "value": 287},
+      {"name": "FashP", "value": 277},
+      {"name": "DJ Nite", "value": 292},
+      {"name": "Dnglish Nite", "value": 595},
+   
+      {"name": "_", "value": 0}
+     ]
+    },
+    {
+     "name": "(NIT), Delhi",
+     "children": [
+      {"name": "Beat the street", "value": 593},
+      {"name": "Waves Ball", "value": 330},
+      {"name": "Beat the street", "value": 287},
+      {"name": "Dnglish Nite", "value": 277},
+
+      {"name": "_", "value": 0}
+     ]
+    },
+    {
+     "name": "(NSIT), New Delhi",
+     "children": [
+      {"name": "FashP", "value": 593},
+      {"name": "Solo Dance", "value": 330},
+      {"name": "Street-Dance", "value": 287},
+      {"name": "Beat Box Battle", "value": 277},
+      {"name": "FashP", "value": 292},
+
+      {"name": "Natyanjal", "value": 354},
+      {"name": "_", "value": 0}
+     ]
+    },
+ 
+
+
+    {"name": "Relevance-5", "value": 0}
+   ]
+  },
+  {
+   "name": "Hyderabad",
+   "children": [
+    {"name": "IIT-Hyd", "value": 2105},
+    {"name": "Nit-HYD", "value": 1316},
+    {"name": "CBIT", "value": 3151},
+    {"name": "Tech Mahendra", "value": 3770},
+
+    {"name": "TimeScale", "value": 0}
+   ]
+  },
+  {
+   "name": "Gujarat",
+   "children": [
+    {"name": "IIT Gandinagar", "value": 8258},
+    {"name": "Atmiya university ,Rajkot", "value": 10001},
+    {"name": "SVNIT-Surat ", "value": 8217},
+    {"name": "(NUV)-Vadodara", "value": 12555},
+    {"name": " RKU Rajkot", "value": 2324},
+    {"name": "Geometry", "value": 0},
+ 
+  
+    {"name": "Visualization", "value": 0}
+   ]
+  }
+ ]
+}
