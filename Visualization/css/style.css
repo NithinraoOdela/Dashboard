@@ -54,6 +54,7 @@ button {
 #nn{
     color: rgb(19, 221, 70);
 }
+
 .dropbtn {
     background-color: #3498DB;
     color: white;
@@ -109,4 +110,9 @@ button {
     display: flex;
     height: 22px;
     margin-left: 362px;
+}
+
+.navbar-dark{
+
+    margin-top: 2px;
 }
